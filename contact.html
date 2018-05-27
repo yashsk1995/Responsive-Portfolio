@@ -1,0 +1,96 @@
+<!Doctype html>
+<html>
+
+<head>
+    <!-- Title for a page -->
+    <title>Basic-Portfolio</title>
+    <meta charset="UTF-8">
+    <!-- Link for a css page -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!--link for a reset css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <!-- small script that runs after clicking on submit button -->
+    <script>
+        function clickAlert() {
+            alert("Submitted!");
+        }
+    </script>
+</head>
+<!-- Body with background image -->
+
+<body style="background-image: url('assets/images/background2.png')">
+    <!-- Main div for a menu -->
+
+    <div class="main-div">
+        <!-- header -->
+        <div class="header1">
+            <!-- div for a text that shows a name -->
+            <div class="div1">
+                <p class="h11">Yash Kinariwala</p>
+            </div>
+            <!-- div for all link in the menu bar -->
+            <div class="button-posi">
+                <!-- div that contain all links that navigato other pages -->
+                <div class="btn">
+                    <strong>
+                        <!-- links -->
+                        <a class="a1" href="index.html">About |</a>
+                        <a class="a1" href="portfolio.html">Portfolio |</a>
+                        <a class="a1" href="contact.html">Contact</a>
+                    </strong>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- div that contain contact form -->
+    <div class="main-div2">
+        <div class="main-cont">
+            <!-- heading -->
+            <h1 class="h12">
+                <br>Contact</h1>
+            <font class="con-fonts">
+                <!-- form -->
+                <form class="form1">
+                    <br>
+                    <br>
+                    <!-- label for an Name field in form -->
+                    <label name="fname">Name</label>
+                    <br>
+                    <!-- Textbox for a name field -->
+                    <input class="boxform1" type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <br>
+                    <br>
+                    <!-- label for an Email field in form -->
+
+                    <label name="Email">Email</label>
+                    <br>
+                    <!-- Textbox for a Email field -->
+
+                    <input class="boxform1" type="text" id="email" name="email" placeholder="Example@gmail.com">
+                    <br>
+                    <br>
+                    <!-- label for an Message field in form -->
+
+                    <label name="Message">Message</label>
+                    <br>
+                    <!-- Textarea for a message field -->
+
+                    <textarea class="boxform1" name="Message" placeholder="Write Your Message.." style="height:100px"></textarea>
+                    <br>
+                    <br>
+                    <!-- button for submmit -->
+                    <input class="con-btn btnh" onclick="clickAlert()" type="submit" value="Submit">
+                </form>
+        </div>
+        </font>
+    </div>
+    <br>
+    <br>
+    <!-- footer -->
+    <footer class="footer1">
+        <font class="footfont"> @copyright</font>
+    </footer>
+</body>
+
+</html>
