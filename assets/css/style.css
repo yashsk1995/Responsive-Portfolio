@@ -242,13 +242,13 @@ line-height: 120px;
 
 
 
-@media only screen and (min-width: 640px) and (max-width: 640px) {
+ @media only screen and (max-width: 640px) {
     
 
     .header1{
         width: 100%;
         margin-left:0px;
-    }
+        }
    .h11{
     padding:0px;
     margin-left:0px;
@@ -372,7 +372,7 @@ left:72px;
   These rules take effect when the browser's width
   is either 768px or less.
 */
-@media only screen and (min-width: 768px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     
 
     .header1{
@@ -489,7 +489,7 @@ left:72px;
   }
 
 
-  @media only screen and (min-width: 980px) and (max-width: 980px) {
+  @media only screen and (max-width: 980px) {
     
 
     .header1{
