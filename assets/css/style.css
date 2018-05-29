@@ -233,34 +233,130 @@ line-height: 120px;
 }
 .wrap {
     /* Box-model */
-    width: 1400px;
+    width:100%;
   
     /* Positioning */
-    margin: 0 auto;
+    margin: 40 auto;
   }
-  
   
 
 /*
   These rules take effect when the browser's width
   is either 768px or less.
 */
-@media screen and (max-width: 768px) {
-    /* The body's bg color will be #333 */
-    body {
-      background:#777777;
-    }
-  
-    /* The wrapper's width will be 600px */
-    .wrap {
-      width: 600px;
-    }
-    .wrap {
-        margin-left:0;
-      }
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+    
 
-    .main-div2{
-        margin-left: 0px;
+    .header1{
+        width: 30%;
+        margin-left:0px;
     }
+   .h11{
+    padding:0px;
+    margin-left:0px;
+    width: 30%;
+    position: absolute;
+    top: 7%;
+    left: 16.5%;
+    margin-right: -70%;
+    transform: translate(-50%, -50%); 
+   }
+   .div1{
+       
+       margin-left:10px;
+   }
+  .btn{
+      width: 100%;
+  }
+  .button-posi{
+    margin-left:300px;
+    position: absolute;
+    top: 7%;
+    left: 25%;
+    margin-right: -70%;
+    transform: translate(-50%, -50%); 
+  }
+.main-cont, .main-div2{
+    margin-left: 10px;
+}
+.h12 {
+    width: 90%;
+}
+.main-div2, .main-cont{
+    width:78%;
+    height: 550px;
+}
+.img{
+    height: 250px;
+}
+.p1{
+    font-size: 23px;
+    margin-top: 5px;
+    float:left;
+    width: 60%;
+}
+.p2{
+    font-size: 23px;
+    width: 100%;
+    margin-top: 5px;
+}
+.footer1{
+    width:65%;
+}
+
+
+/* Portfolio */
+.box1{
+    width:180px;
+    height:35px;
+    background: #4aaaa5;
+    position: absolute;
+    top:270px;
+    left:73px;
+
+}
+.box2{
+width:180px;
+height:35px;
+background: #4aaaa5;
+position: absolute;
+top:270px;
+left:322px;
+
+}
+.box3{
+width:180px;
+height:35px;
+background: #4aaaa5;
+position: absolute;
+top:430px;
+left:72px;
+
+}
+.box4{
+width:180px;
+height:35px;
+background: #4aaaa5;
+position: absolute;
+top:430px;
+left:322px;
+
+}
+.box5{
+width:180px;
+height:35px;
+background: #4aaaa5;
+position: absolute;
+top:595px;
+left:72px;
+
+}
+
+/* Contact */
+
+.boxform1{
+    width: 95%;
+    border:1px solid gray;
+}
   }
   
